@@ -2,6 +2,8 @@
 ## so that we don't need to calculate it again if it's the same matrix
 
 ## This function creates a special "matrix" object that can cache its inverse.
+## This function returns a list that sets the matrix, gets the matrix,
+## sets the inverse and gets the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
